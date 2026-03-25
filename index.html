@@ -3,99 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Justice Email — Keeping Families Connected</title>
+  <title>Justice Email — This Email Is Real</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
       color: #333;
       background: #f8f9fa;
-      line-height: 1.6;
+      line-height: 1.7;
     }
     .header {
       background: linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%);
       color: white;
-      padding: 1rem 2rem;
+      padding: 0.75rem 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-    .header h1 { font-size: 1.5rem; font-weight: 600; }
+    .header h1 { font-size: 1.2rem; font-weight: 500; opacity: 0.9; }
     .header nav a {
       color: white;
       text-decoration: none;
       margin-left: 1.5rem;
-      font-size: 0.95rem;
-      opacity: 0.9;
+      font-size: 0.85rem;
+      opacity: 0.8;
     }
     .header nav a:hover { opacity: 1; text-decoration: underline; }
     .hero {
       background: linear-gradient(135deg, #1a73e8 0%, #1565c0 50%, #0d47a1 100%);
       color: white;
       text-align: center;
-      padding: 5rem 2rem 4rem;
+      padding: 4rem 2rem 3.5rem;
     }
-    .hero h2 { font-size: 2.4rem; font-weight: 700; margin-bottom: 1rem; max-width: 700px; margin-left: auto; margin-right: auto; }
-    .hero p { font-size: 1.15rem; opacity: 0.9; max-width: 600px; margin: 0 auto 2rem; }
-    .btn {
-      display: inline-block;
-      padding: 0.85rem 2.5rem;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 1rem;
-      cursor: pointer;
-      border: none;
-      transition: transform 0.15s, box-shadow 0.15s;
+    .hero h2 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin-bottom: 1.2rem;
     }
-    .btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
-    .btn-primary { background: white; color: #1a73e8; }
+    .hero p {
+      font-size: 1.15rem;
+      opacity: 0.92;
+      max-width: 560px;
+      margin: 0 auto;
+    }
     .content {
-      max-width: 720px;
-      margin: 3rem auto;
-      padding: 0 2rem;
+      max-width: 640px;
+      margin: 2.5rem auto 2rem;
+      padding: 0 1.5rem;
     }
     .section {
       background: white;
-      border-radius: 12px;
-      padding: 2.5rem;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-      margin-bottom: 2rem;
+      border-radius: 10px;
+      padding: 2rem 2.25rem;
+      box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+      margin-bottom: 1.25rem;
     }
     .section h3 {
-      font-size: 1.4rem;
-      margin-bottom: 1rem;
+      font-size: 1.2rem;
+      margin-bottom: 0.6rem;
       color: #1a73e8;
     }
     .section p {
-      font-size: 1.05rem;
+      font-size: 1rem;
       color: #555;
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
     }
     .section p:last-child { margin-bottom: 0; }
     .cta-section {
       text-align: center;
-      padding: 3rem 2rem 4rem;
+      padding: 2rem 2rem 3.5rem;
     }
     .cta-section h3 {
-      font-size: 1.6rem;
-      margin-bottom: 0.75rem;
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
       color: #333;
     }
     .cta-section p {
       color: #666;
-      margin-bottom: 1.5rem;
-      font-size: 1.05rem;
+      margin-bottom: 1.25rem;
+      font-size: 1rem;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
     }
     .btn-cta {
       display: inline-block;
-      padding: 1rem 3rem;
+      padding: 0.85rem 2.5rem;
       background: #1a73e8;
       color: white;
       border-radius: 6px;
       text-decoration: none;
       font-weight: 600;
-      font-size: 1.1rem;
+      font-size: 1rem;
       transition: transform 0.15s, box-shadow 0.15s, background 0.15s;
     }
     .btn-cta:hover {
@@ -105,12 +104,12 @@
     }
     .footer {
       background: #2c3e50;
-      color: #aaa;
+      color: #999;
       text-align: center;
-      padding: 2rem;
-      font-size: 0.9rem;
+      padding: 1.5rem;
+      font-size: 0.85rem;
     }
-    .footer a { color: #ddd; text-decoration: none; margin: 0 1rem; }
+    .footer a { color: #ccc; text-decoration: none; margin: 0 0.75rem; }
     .footer a:hover { text-decoration: underline; }
   </style>
 </head>
@@ -124,37 +123,32 @@
   </header>
 
   <section class="hero">
-    <h2>You received an email from someone using FireFly</h2>
-    <p>Justice Email is the email domain used by FireFly, a platform that helps incarcerated people stay connected with the people who matter most.</p>
-    <a href="https://www.sendmeakite.com" class="btn btn-primary">Learn More About FireFly</a>
+    <h2>This email is real.</h2>
+    <p>Someone you know sent you a message. It was sent by a person in federal prison who wanted to reach you, using a service called FireFly.</p>
   </section>
 
   <div class="content">
     <div class="section">
-      <h3>Why This Matters</h3>
-      <p>Nearly two million people are incarcerated in the United States. For many of them, staying in touch with family, friends, and loved ones is difficult, expensive, and sometimes nearly impossible.</p>
-      <p>That isolation doesn't just affect the person inside — it touches everyone who cares about them. Children grow up without hearing from a parent. Partners struggle to maintain relationships across walls and distance. The bonds that help people rebuild their lives after incarceration quietly erode.</p>
+      <h3>How to Reply</h3>
+      <p>Just hit reply on the email you received. Your response will be delivered to the person who wrote you. No app needed, no account required.</p>
     </div>
 
     <div class="section">
-      <h3>What FireFly Does</h3>
-      <p>FireFly makes it easier and more affordable for incarcerated individuals to send and receive messages. By removing barriers to communication, FireFly helps families stay connected when it matters most.</p>
-      <p>The email you received was sent through FireFly by someone who wanted to reach out to you. That simple act of connection can make a real difference.</p>
+      <h3>Is this a scam?</h3>
+      <p>No. This email was sent through FireFly, a communication service for people in federal prison. The person who sent it paid to reach you.</p>
+      <p>We will never ask you for money, passwords, or personal information.</p>
     </div>
   </div>
 
   <div class="cta-section">
-    <h3>Want to learn more?</h3>
-    <p>Visit FireFly to see how you can stay connected.</p>
-    <a href="https://www.sendmeakite.com" class="btn-cta">Visit FireFly</a>
+    <h3>Want to stay connected?</h3>
+    <p>You can always reply directly to their emails for free. If you want to help them stay in touch, text, or access legal tools, visit sendmeakite.com to learn how.</p>
+    <a href="https://www.sendmeakite.com" class="btn-cta">Visit SendMeAKite.com</a>
   </div>
 
   <footer class="footer">
-    <p>&copy; 2026 Justice Email. All rights reserved.</p>
-    <p style="margin-top:0.5rem;">
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="terms.html">Terms of Service</a>
-    </p>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
   </footer>
 </body>
 </html>
